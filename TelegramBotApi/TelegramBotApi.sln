@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotApi", "TelegramBotApi\TelegramBotApi.csproj", "{4108096C-FF2D-4D84-9035-99A9C210B461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTelegramBotApi", "UnitTestTelegramBotApi\UnitTestTelegramBotApi.csproj", "{1BB6EB60-1A03-46B4-A446-1700E981EECA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4108096C-FF2D-4D84-9035-99A9C210B461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4108096C-FF2D-4D84-9035-99A9C210B461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4108096C-FF2D-4D84-9035-99A9C210B461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB6EB60-1A03-46B4-A446-1700E981EECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB6EB60-1A03-46B4-A446-1700E981EECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB6EB60-1A03-46B4-A446-1700E981EECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB6EB60-1A03-46B4-A446-1700E981EECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
