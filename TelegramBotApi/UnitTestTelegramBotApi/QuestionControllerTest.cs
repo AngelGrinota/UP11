@@ -109,7 +109,8 @@ namespace UnitTestTelegramBotApi
         }
 
         /// <summary>
-        /// Метод, тестирующий возврат ошибки NotFoundResult, при получении вопроса по его ИД. Метод GetById контроллера Questions
+        /// Проверяет, что метод GetById контроллера возвращает результат NotFound 
+        /// при запросе вопроса с несуществующим идентификатором.
         /// </summary>
         /// <returns></returns>
         [Fact]
